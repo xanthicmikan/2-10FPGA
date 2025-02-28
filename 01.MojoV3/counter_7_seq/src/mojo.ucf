@@ -1,0 +1,25 @@
+# User Constraint File for 7-seg counter on Mojo with IO Shield
+
+NET "CLK" LOC = P56; 
+
+# Switches
+NET "switch_up" LOC = "P137" | PULLDOWN;
+NET "switch_clear" LOC = "P139" | PULLDOWN;
+
+# 7-segments
+NET "SEQ[7]" LOC = P5;
+NET "SEQ[6]" LOC = P8;
+NET "SEQ[5]" LOC = P144;
+NET "SEQ[4]" LOC = P143;
+NET "SEQ[3]" LOC = P2;
+NET "SEQ[2]" LOC = P6;
+NET "SEQ[1]" LOC = P1;
+NET "SEQ[0]" LOC = P141;
+
+# Digits 
+NET "DIGIT[3]" LOC = P12;
+NET "DIGIT[2]" LOC = P7;
+NET "DIGIT[1]" LOC = P10;
+NET "DIGIT[0]" LOC = P9;
+
+

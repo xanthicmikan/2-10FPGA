@@ -1,0 +1,12 @@
+# user Constraint File for Data selector on Mojo IO shield
+
+# DIP Switch 0 is selsctor for channels A and B
+# Left Pish Switch is input A
+# Right Push Switch is input B
+# LED 0 is output
+
+NET "SEL" LOC = "P120" | PULLDOWN;#DIP Switch 0
+NET "A" LOC = "P142" | PULLDOWN;#Left Pish Switch
+NET "B" LOC = "P138" | PULLDOWN;#Right Push Switch
+
+NET "Q" LOC = "P97";#LED 0
